@@ -13,10 +13,7 @@ aws iam delete-user --user-name username
 
 aws iam delete-access-key --access-key-id AKIAX47Z4XOCWVYLGEEE --user-name test-user
 
-AKIAX47Z4XOC5LAA427I
 ```
-
-
 
 ## 查看现有用户
 
@@ -73,10 +70,6 @@ aws iam create-access-key --user-name username
 ```
 aws iam list-access-keys --user-name username
 ```
-
-
-
-
 
 ## 为IAM用户删除秘钥
 
