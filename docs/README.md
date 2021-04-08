@@ -1,22 +1,18 @@
-# AWSCLI中文手册
+# AWS Command Line Interface
+
+AWS Command Line Interface是一个统一的工具，可以与AWS的所有资源服务进行交互提供了一致的界面。
 
 
-
-
-
-```
-➜  ~ aws  sts get-caller-identity
-{
-    "UserId": "AIDAX47Z4XOC34ZJ2NPFN",
-    "Account": "543300565893",
-    "Arn": "arn:aws:iam::543300565893:user/h.tea"
-}
-```
-
-
+命令参考：
 
 ```
-➜ aws configure get region
+aws [options] <command> <subcommand> [parameters]
+```
+
+举个栗子：
+
+```
+aws configure get region
 ap-northeast-1
 ```
 

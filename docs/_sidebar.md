@@ -1,8 +1,8 @@
 
 
 * [简介](README.md)
-  * [基础安装配置](/init/README.md)  
-  * 333
+  * [基础安装配置](/init/install-awscli.md)  
+  * [查询状态](/init/checkstatus.md)
   * 555
 * EC2
   * 222

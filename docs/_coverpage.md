@@ -1,8 +1,8 @@
 ![logo](./images/Arch_AWS-Command-Line-Interface_48.svg)
 
-# AWS CLI 中文手册
+# AWS Command Line Interface <small>2.0</small>
 
-> XXXX
+> 中文版
 
 [GitHub](https://github.com/allinaws/AWS-CLI-Command.git)
 [首页](README)
