@@ -2,10 +2,13 @@
 
 ```
 aws configure get region
-ap-east-1
 ```
 
+## 查看用户
 
+```
+aws sts get-caller-identity
+```
 
 ## 查看所有region
 
