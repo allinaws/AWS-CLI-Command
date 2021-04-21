@@ -1,13 +1,25 @@
 ## 查看所在区域
 
 ```
-aws configure get region
+➜  ~ aws configure get region
 ```
 
 ## 查看用户
 
 ```
-aws sts get-caller-identity
+➜  ~ aws sts get-caller-identity
+```
+
+## 查看配置
+
+```
+➜  ~ aws configure list
+      Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                <not set>             None    None
+access_key     ****************3VOF shared-credentials-file
+secret_key     ****************Sk/8 shared-credentials-file
+    region                ap-east-1      config-file    ~/.aws/config
 ```
 
 ## 查看所有region

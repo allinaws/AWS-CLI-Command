@@ -3,8 +3,9 @@
 ```
 aws ec2 describe-instances --instance-ids i-06d139a72cd902e55
 ```
-##根据实例类型描述实例
+## 根据实例类型描述实例
 下面的describe-instances示例仅显示有关指定类型实例的详细信息。
+
 ```
 aws ec2 describe-instances --filters Name=instance-type,Values=m5.large
 ```
